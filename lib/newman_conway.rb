@@ -12,11 +12,12 @@ def newman_conway(num)
 
   count = 3
   while count <= num
-    # P(P(n - 1)) + P(n - P(n - 1))
+    # P(n) = P(P(n - 1)) + P(n - P(n - 1))
     memo[count] = memo[memo[count - 1]] + memo[count - memo[count - 1]]
     count += 1
   end
 
+  # This could be nested into the while loop above
   (2..num).each do |i|
     output += " #{memo[i]}"
   end
