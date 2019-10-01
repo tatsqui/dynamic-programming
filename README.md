@@ -2,6 +2,8 @@
 
 Dynamic programming is a strategy for developing an algorithm where each subproblem is solved and the results recorded for use in solving larger problems.  In this exercise you will write a pair of dynamic programming methods.
 
+Please complete this by **Monday October 11th**
+
 ## Wave 1 Newman-Conway Sequence
 
 [Newman-Conway sequence] is the one which generates the following integer sequence.  1 1 2 2 3 4 4 4 5 6 7 7….. and follows below recursive formula.
