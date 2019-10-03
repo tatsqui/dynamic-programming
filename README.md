@@ -6,7 +6,7 @@ Please complete this by **Monday October 11th**
 
 ## Wave 1 Newman-Conway Sequence
 
-[Newman-Conway sequence] is the one which generates the following integer sequence.  1 1 2 2 3 4 4 4 5 6 7 7….. and follows below recursive formula.
+[Newman-Conway sequence](https://archive.lib.msu.edu/crcmath/math/math/n/n078.htm) is the one which generates the following integer sequence.  1 1 2 2 3 4 4 4 5 6 7 7….. and follows below recursive formula.
 
 ```
 P(1) = 1
