@@ -9,9 +9,8 @@ Please complete this by **Monday October 11th**
 [Newman-Conway sequence](https://archive.lib.msu.edu/crcmath/math/math/n/n078.htm) is the one which generates the following integer sequence.  1 1 2 2 3 4 4 4 5 6 7 7….. and follows below recursive formula.
 
 ```
-P(0) = 1
 P(1) = 1
-P(2) = 2
+P(2) = 1
 for all n > 2
 P(n) = P(P(n - 1)) + P(n - P(n - 1))
 ```
